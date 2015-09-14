@@ -1,0 +1,94 @@
+.c737909e5f80eecaef153765fdce77a08ef4075f{display:block;}.reload-button{
+    background: #2DB6B7;
+    width:150px;
+    margin: 10px 20px 10px 10px;
+    color:white;
+    font-weight: bold;
+    border-bottom: solid 4px #025E59;
+}
+
+.view7-green-flag {
+    background: url("../images/banderin_verde.png") no-repeat;
+    background-size: contain;
+}
+
+.view7-orange-flag {
+    background: url("../images/banderin_naranja.png") no-repeat;
+    background-size: contain;
+}
+
+.view8_fieldset.x-form-fieldset.x-form-fieldset-inner {
+    border: none !important;
+    background-color: transparent !important;
+}
+
+.view8-toggle .x-toggle{
+    width: 4em;
+}
+
+.view8-toggle .x-thumb:after{
+    background: white;
+}
+
+.view8-toggle .x-toggle-on{
+    background: #2DB6B7 none;
+    border-bottom: solid 2px #60CFD8;
+}
+
+.view8-slider-labels{
+    color: #908080;
+}
+
+.v8-toggle-on{
+    font-weight: bold;
+    color: #2DB6B7;
+}
+
+.v8-toggle-off{
+    font-weight: bold;
+    color: #B3B3B3;
+}
+
+.view9-table{
+    background: url("../images/view9-table.png") no-repeat;
+    background-size: contain;
+    border: none;
+}
+
+.view10-list{
+    color: #000000;
+    padding: 0px;
+}
+
+.view10-list ol{
+    padding-left:0;
+}
+
+.view10-list li{
+    color: black;
+    padding: 0 0 5px 0;
+}
+
+.view11-list{
+    color: #000000;
+    padding: 0px;
+}
+
+.view11-list p{
+    color: #000000;
+}
+
+.view11-list li{
+    color: #000000;
+}
+
+.view11-list ul li{
+    list-style-type: circle !important;
+    align-content: space-between;
+}
+
+.view11-row-cont{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 1px solid #008682;
+}

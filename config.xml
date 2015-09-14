@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.miramar.toolsAR"
+        version   = "0.0.1">
+
+
+        <name>Herramientas AR</name>
+
+        <description>Herramientas AR</description>
+
+        <author email="psilva@miramar-outsourcing.com.mx" href="http://miramar-outsourcing.com.mx">
+            Desarrollador Jorge Dalmendray
+        </author>
+
+        <!--<content src="index.html" />
+        <access origin="*" />-->
+
+
+
+        <gap:platform name="ios" />
+        <gap:platform name="android" />
+        
+        <preference name="target-device" value="universal" />
+
+        
+        <preference name="phonegap-version" value="3.5.0" />
+        <preference name="orientation" value="portrait" />
+        <preference name="fullscreen" value="true" />
+
+
+        <!--    Preferencias IOS  -->
+
+        <preference name="target-device" value="tablet" />
+        <preference name="prerendered-icon" value="true" />
+        <preference name="detect-data-types" value="false" />
+        <preference name="deployment-target" value="7.0" />
+
+
+    	
+    	
+        <!-- icon iOS-->
+
+        <icon src="iconos/icon.png" />
+        <!-- iPhone 6 / 6+ -->
+        <icon src="iconos/icon-60@3x.png" gap:platform="ios" width="180" height="180" />
+
+        <!-- iPhone / iPod Touch  -->
+        <icon src="iconos/icon-60.png" gap:platform="ios" width="60" height="60" />
+        <icon src="iconos/icon-60@2x.png" gap:platform="ios" width="120" height="120" />
+
+        <!-- iPad -->
+        <icon src="iconos/icon-76.png" gap:platform="ios" width="76" height="76" />
+        <icon src="iconos/icon-76@2x.png" gap:platform="ios" width="152" height="152" />
+
+        <!-- Settings Icon -->
+        <icon src="iconos/icon-small.png" gap:platform="ios" width="29" height="29" />
+        <icon src="iconos/icon-small@2x.png" gap:platform="ios" width="58" height="58" />
+
+        <!-- Spotlight Icon -->
+        <icon src="iconos/icon-40.png" gap:platform="ios" width="40" height="40" />
+        <icon src="iconos/icon-40@2x.png" gap:platform="ios" width="80" height="80" />
+
+
+
+
+        <!-- splash iOS-->
+
+
+        <!-- iPhone and iPod touch -->
+        <gap:splash src="splash/Default.png" gap:platform="ios" width="320" height="480" />
+        <gap:splash src="splash/Default@2x.png" gap:platform="ios" width="640" height="960" />
+
+        <!-- iPhone 5 / iPod Touch (5th Generation) -->
+        <gap:splash src="splash/Default-568h@2x.png" gap:platform="ios" width="640" height="1136" />
+
+        <!-- iPhone 6 -->
+        <gap:splash src="splash/Default-667h@2x.png" gap:platform="ios" width="750" height="1334" />
+        <gap:splash src="splash/Default-Portrait-736h@3x.png" gap:platform="ios" width="1242" height="2208" />
+        <gap:splash src="splash/Default-Landscape-736h@3x.png" gap:platform="ios" width="2208" height="1242" />
+
+        <!-- iPad -->
+        <gap:splash src="splash/Default-Portrait.png" gap:platform="ios" width="768" height="1024" />
+        <gap:splash src="splash/Default-Landscape.png" gap:platform="ios" width="1024" height="768" />
+
+        <!-- Retina iPad -->
+        <gap:splash src="splash/Default-Portrait@2x.png" gap:platform="ios" width="1536" height="2048" />
+        <gap:splash src="splash/Default-Landscape@2x.png" gap:platform="ios" width="2048" height="1536" />
+            	
+
+        
+
+		<!-- ANDROID-->
+		<preference name="android-minSdkVersion" value="10" />
+		<preference name="android-maxSdkVersion" value="15" />
+		<preference name="android-installLocation" value="auto" />
+		
+		<!-- PLUGINS -->
+		<gap:plugin name="org.apache.cordova.file" />
+		<gap:plugin name="org.apache.cordova.file-transfer" />
+		
+		<feature name="File">
+		  <param name="ios-package" value="CDVFile" />
+		</feature>
+		<feature name="FileTransfer">
+		  <param name="ios-package" value="CDVFileTransfer" />
+		</feature>
+		<preference name="iosPersistentFileLocation" value="Library" />
+		
+    	<!-- BARRA-->
+    	
+    	<gap:plugin name="com.phonegap.plugin.statusbar" />
+    	<preference name="StatusBarOverlaysWebView" value="false" />
+    	<preference name="StatusBarBackgroundColor" value="#ffffff" />
+    	
+    	<feature name="StatusBar">
+               <param name="ios-package" value="CDVStatusBar" onload="true" />
+        </feature>
+
+
+        <gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance" overwrite="true">
+            <false/>
+        </gap:config-file>
+
+    </widget>

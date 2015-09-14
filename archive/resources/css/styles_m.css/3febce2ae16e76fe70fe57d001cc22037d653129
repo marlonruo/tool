@@ -1,0 +1,120 @@
+.3febce2ae16e76fe70fe57d001cc22037d653129{display:block;}.m-main-menu{
+    padding: 0 !important;
+    background-color: #5c5c66 !important;
+    background-image: none;
+    font-size: 0.8em !important;
+}
+
+.m-header-primary-label{
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.m-header-secondary-label{
+    color: white;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.m-view7-first-label{
+    color: black;
+    margin-bottom: 40px;
+}
+
+.m-view7-sec-label{
+    margin-bottom: 20px;
+    color: #2DB6B7;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.m-view7-third-label{
+    margin: 0px 0 20px 0;
+    color: #F48326;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.m-view7-bullet-01-cont{
+    padding-left: 20px;
+}
+
+.m-slider-text{
+    color: #2DB6B7;
+    font-size: 0.7em;
+    text-align: center;
+}
+
+.m-slider-values{
+    color: #B4B2B2;
+    font-size: 0.5em;
+}
+
+.m-slider-result-label{
+    color: #235E59;
+    font-size: 0.7em;
+}
+
+.m-top-bar{
+    background-color: #2DB6B7;
+    border-bottom: 6px solid #025E59 !important;
+    padding: 8px 0 8px 11px;
+    background-image: none !important;
+    z-index:10;
+}
+
+.x-layout-card-item{
+    background: transparent;
+}
+
+.m-view8-first-label{
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.m-view8-toggle .x-toggle{
+    width: 50px;
+}
+
+.m-radiofield{
+    border-top: 1px solid black !important;
+}
+
+.next-button{
+    background: url("../images/next.png") no-repeat;
+    background-size: contain;
+    border: none;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.prev-button{
+    background: url("../images/prev.png") no-repeat;
+    background-size: contain;
+    border: none;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.view9-table-m{
+    background: url("../images/view9-table-m.png") no-repeat;
+    background-size: contain;
+    border: none;
+}
+
+.view7-label-bullet-02-m{
+    margin-right: 25px;
+    font-size: 0.7em;
+}
+
+.view1-table-footer-m{
+    background: #025E59;
+    height: 46px;
+}
+
+.view1-row-header-m{
+    background: #025E59;
+    height: 30px;
+}

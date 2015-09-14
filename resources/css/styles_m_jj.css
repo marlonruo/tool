@@ -1,0 +1,95 @@
+.0e0cb9681c7d3b8e4e8aba1ffa85b9c70b5824f5{display:block;}.title-font{
+    font-size: 0.8em !important;
+}
+
+.phone-gray-labels{
+    color: #808080;
+    font-size: 0.7em;
+}
+
+.part-labels-phone{
+    color: white;
+    font-weight: bold;
+    font-size: 1.0em;
+}
+
+.tar-view4-label-grey-phone{
+    color: #B3B3B3;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.tar-view4-label-green-phone{
+    color: #2DB6B7;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.tar-toggle-phone{
+    font-size: 14px;
+    padding: 0.5em;
+    background:none;
+}
+
+.tar-toggle-phone .x-thumb:after{
+    background: white;
+}
+
+.tar-toggle-phone .x-slider-field .x-component-outer, .x-toggle-field .x-component-outer{
+    padding: 0.4em;
+}
+
+.tar-toggle-phone .x-toggle{
+    width: 4em;
+    background: #2DB6B7 none;
+}
+
+.tar-toggle-phone .x-toggle-on{
+    background: #2DB6B7 none;
+    border-bottom: solid 2px #60CFD8;
+}
+
+.tar-view4-label-select-phone{
+    text-align:center;
+    color: #808080;
+    font-size: 0.9em;
+}
+
+.bodytable-row-left-phone{
+    background: #2DB6B7;
+}
+
+.bodytable-row-left-total-phone{
+    background: #025E59;
+}
+
+.bodytable-header-phone{
+    background: #2DB6B7;
+    height: 50px;
+}
+
+.bodytable-header-phone-dark{
+    background: #025E59;
+    height: 50px;
+}
+
+.bodytable-header-border-horizontal-phone{
+    border-bottom: solid 1px black;
+}
+
+.result-table-numberfield .x-input-number{
+    text-align: center;
+    color:rgb(244, 131, 38);
+}
+
+.view4-table{
+    background: url("../images/rangeDasPhone.png") no-repeat;
+    background-size: contain;
+    border: none;
+}
+
+.view5-table{
+    background: url("../images/rangeSDAIPhone.png") no-repeat;
+    background-size: contain;
+    border: none;
+}
